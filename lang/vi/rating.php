@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'rating', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,7 @@ Nếu "Không đánh giá" được chọn, thì hoạt động sẽ không xu�
 $string['allratingsforitem'] = 'Tất cả đánh giá đã được gửi';
 $string['capabilitychecknotavailable'] = 'Kiểm tra tương thích không hiện hữu cho đến khi hoạt động được lưu';
 $string['couldnotdeleteratings'] = 'Xin lỗi, nó không thể xóa được vì người ta đã đánh giá nó';
+$string['grade_rating_name'] = 'Điểm đánh giá';
 $string['noratings'] = 'Không có đánh giá được gửi đi';
 $string['noviewanyrate'] = 'Bạn chỉ có thể xem các kết quả đối với các mục bạn đã tạo';
 $string['noviewrate'] = 'Bạn không có quyền xem các đánh giá mục';

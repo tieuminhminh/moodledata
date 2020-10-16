@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'calendar', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['calendarheading'] = 'Lịch {$a}';
 $string['calendarpreferences'] = 'Cài đặt ưu tiên cho lịch';
 $string['calendartypes'] = 'Các loại lịch';
 $string['calendarurl'] = 'URL Lịch: {$a}';
+$string['category'] = 'Mục';
 $string['clickhide'] = 'Nhấn vào đây để đóng';
 $string['clickshow'] = 'Nhấn vào đây để mở';
 $string['colactions'] = 'Hành động';
@@ -94,12 +95,12 @@ $string['eventsrelatedtocourses'] = 'Sự kiện liên quan đến khoá học';
 $string['eventstarttime'] = 'Bắt đầu';
 $string['eventsupdated'] = 'Các sự kiện được cập nhật: {$a}';
 $string['eventtime'] = 'Vào lúc';
+$string['eventtypesite'] = 'trang';
 $string['expired'] = 'Hết thời gian';
 $string['explain_site_timeformat'] = 'Bạn có thể chọn kiểu định dạng 12 hay 24 giờ cho toàn hệ thống. Nếu chọn "mặc định", kiểu định dạng sẽ được chọn tương ứng với ngôn ngữ bạn sử dụng. Thiết lập này có thể bị át quyền khi thành viên chọn thiết lập riêng khác đi.';
 $string['export'] = 'Xuất';
 $string['exportbutton'] = 'Xuất';
 $string['exportcalendar'] = 'Xuất lịch biểu';
-$string['for'] = 'từ';
 $string['forcecalendartype'] = 'Thi hành lịch';
 $string['fri'] = 'T6';
 $string['friday'] = 'Thứ 6';
@@ -111,12 +112,7 @@ $string['gotocalendar'] = 'Mở lịch';
 $string['group'] = 'Nhóm';
 $string['groupevent'] = 'Sự kiện nhóm';
 $string['groupevents'] = 'Sự kiện nhóm';
-$string['hidecourseevents'] = 'Ẩn các sự kiện khóa học';
-$string['hideglobalevents'] = 'Ẩn các sự kiện toàn cục';
-$string['hidegroupsevents'] = 'Ẩn các sự kiện nhóm';
-$string['hideuserevents'] = 'Ẩn các sự kiện người dùng';
 $string['hourly'] = 'Hàng giờ';
-$string['ical'] = 'iCal';
 $string['importcalendar'] = 'Nhập lịch';
 $string['importcalendarfrom'] = 'Nhập từ';
 $string['importcalendarheading'] = 'Nhập lịch...';
@@ -155,7 +151,6 @@ $string['pref_startwday'] = 'Ngày đầu tuần';
 $string['pref_startwday_help'] = 'Lịch các tuần sẽ được hiển thị bắt đầu từ ngày bạn chọn ở mục này.';
 $string['pref_timeformat'] = 'Định dạng hiển thị thời gian';
 $string['pref_timeformat_help'] = 'Bạn có thể chọn xem giờ ở định dạng 12 hoặc 24 tiếng. Nếu bạn chọn "mặc định", thì định dạng sẽ tự động được chọn theo ngôn ngữ bạn sử dụng trong trang.';
-$string['quickdownloadcalendar'] = 'Tải xuống nhanh/đăng kí theo dõi lịch biểu';
 $string['recentupcoming'] = 'Mới đây và 60 ngày tới';
 $string['repeatedevents'] = 'Sự kiện lặp lại';
 $string['repeateditall'] = 'Áp dụng các thay đổi cho toàn bộ {$a} sự kiện trong chuỗi lặp này';
@@ -166,18 +161,14 @@ $string['repeatweeksl'] = 'Lặp lại hàng tuần, tạo ra tất cả';
 $string['repeatweeksr'] = 'sự kiện';
 $string['sat'] = 'T7';
 $string['saturday'] = 'Thứ 7';
-$string['showcourseevents'] = 'Hiện các sự kiện khóa học';
-$string['showglobalevents'] = 'Hiện các sự kiện toàn cục';
-$string['showgroupsevents'] = 'Hiện các sự kiện nhóm';
 $string['shown'] = 'hiện';
-$string['showuserevents'] = 'Hiện các sự kiện người dùng';
+$string['site'] = 'Hệ thống';
 $string['siteevents'] = 'Các sự kiện trang';
 $string['spanningevents'] = 'Sự kiện đang diễn ra';
 $string['subscriptionname'] = 'Tên lịch';
 $string['subscriptionremoved'] = 'Theo dõi lịch {$a} bị xóa';
 $string['subscriptions'] = 'Theo dõi';
 $string['subscriptionupdated'] = 'Theo dõi lịch {$a} được cập nhật';
-$string['subsource'] = 'Nguồn sự kiện: {$a->name}';
 $string['sun'] = 'CN';
 $string['sunday'] = 'Chủ Nhật';
 $string['thu'] = 'T5';
@@ -188,14 +179,6 @@ $string['today'] = 'Hôm nay';
 $string['tomorrow'] = 'Ngày mai';
 $string['tt_deleteevent'] = 'Xóa sự kiện';
 $string['tt_editevent'] = 'Sửa sự kiện';
-$string['tt_hidecourse'] = 'Sự kiện khoá học được hiển thị (nhấn vào để ẩn)';
-$string['tt_hideglobal'] = 'Sự kiện chung được hiển thị (nhấn vào để ẩn)';
-$string['tt_hidegroups'] = 'Sự kiện nhóm được hiển thị (nhấn vào để ẩn)';
-$string['tt_hideuser'] = 'Sự kiện thành viên được hiển thị (nhấn vào để ẩn)';
-$string['tt_showcourse'] = 'Sự kiện khoá học bị ẩn (nhấn vào để hiển thị)';
-$string['tt_showglobal'] = 'Sự kiện chung bị ẩn (nhấn vào để hiển thị)';
-$string['tt_showgroups'] = 'Sự kiện nhóm bị ẩn (nhấn vào để hiển thị)';
-$string['tt_showuser'] = 'Sự kiện thành viên bị ẩn (nhấn vào để hiển thị)';
 $string['tue'] = 'T3';
 $string['tuesday'] = 'Thứ 3';
 $string['typecourse'] = 'Sự kiện khoá học';

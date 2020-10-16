@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'forum', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['discussions'] = 'Số chủ đề';
 $string['discussionsstartedby'] = 'Các cuộc thảo luận được bắt đầu bởi  {$a}';
 $string['discussionsstartedbyrecent'] = 'Các cuộc thảo luận gần đây được bắt đầu bởi {$a}';
 $string['discussthistopic'] = 'Thảo luận về chủ đề này';
+$string['duedate'] = 'Hạn chót';
 $string['eachuserforum'] = 'Mỗi người gửi lên  một chủ đề thảo luận';
 $string['edit'] = 'Chỉnh sửa';
 $string['editing'] = 'Chỉnh sửa';
@@ -113,9 +114,6 @@ $string['parentofthispost'] = 'Nguồn gốc của bài viết này';
 $string['pluginname'] = 'Diễn đàn';
 $string['postadded'] = 'Bài viết của bạn được gửi thành công.<p>Bạn có {$a} để chỉnh sửa nếu bạn muốn thay đổi nội dung.';
 $string['postincontext'] = 'Nhìn bài viết này trong ngữ cảnh';
-$string['postmailinfo'] = 'Đây là một bản copy của phúc đáp được gửi lên trên  {$a} website.
-
-Để trả lời thông qua website, nhấn chuột vào liên kết này:';
 $string['postrating1'] = 'Mostly Separate Knowing';
 $string['postrating2'] = 'Tách rời và được kết nối';
 $string['postrating3'] = 'Mostly Connected Knowing';
@@ -160,7 +158,6 @@ $string['subscribeall'] = 'Tất cả mọi người đều đăng ký tới di�
 $string['subscribed'] = 'Đăng ký';
 $string['subscribenone'] = 'Hủy đăng ký mọi người từ diễn đàn này';
 $string['subscribers'] = 'Những người đăng ký';
-$string['subscribersto'] = 'Những người đăng ký tới \'{$a}\'';
 $string['subscribestart'] = 'Gửi các bản copy qua Email';
 $string['subscribestop'] = 'Không gửi các bản copy qua Email';
 $string['subscription'] = 'Đăng ký';

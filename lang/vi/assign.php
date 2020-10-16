@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'assign', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,7 +55,6 @@ $string['savechanges'] = 'Lưu những thay đổi';
 $string['showrecentsubmissions'] = 'Mở các bài nộp gần nhất';
 $string['status'] = 'Trạng thái';
 $string['submission'] = 'Bài nộp';
-$string['submissions'] = 'Bài nộp';
 $string['submissionstatus_marked'] = 'Đã cho điểm';
 $string['submitassignment'] = 'Gửi bài';
 $string['submitted'] = 'Bài đã nộp';

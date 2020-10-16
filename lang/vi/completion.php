@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'completion', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,8 +80,6 @@ $string['completionondate'] = 'Ngày giờ';
 $string['completionondatevalue'] = 'Người dùng phải còn ghi danh cho đến khi';
 $string['completion-pass'] = 'Đã hoàn thành (được điểm đạt)';
 $string['completionsettingslocked'] = 'Cài đặt hoàn thành đã khóa';
-$string['completion-title-manual-n'] = 'Đánh dấu là đã hoàn thành';
-$string['completion-title-manual-y'] = 'Đánh dấu là chưa hoàn thành';
 $string['completionusegrade'] = 'Yêu cầu điểm số';
 $string['completionusegrade_desc'] = 'Học viên phải nhận điểm số để hoàn thành hoạt động này';
 $string['completionusegrade_help'] = 'Nếu được kích hoạt, hoạt động được xem như hoàn thành khi học sinh đạt điểm. Biểu tượng đạt và trượt có thể hiển thị nếu điểm đạt cho hoạt động được đặt.';

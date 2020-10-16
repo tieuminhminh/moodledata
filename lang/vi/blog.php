@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'blog', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['autotags'] = 'Thêm các thẻ này';
 $string['autotags_help'] = 'Một một hoặc nhiều thẻ nội bộ (được ngăn cách bởi dấu phẩy) mà bạn muốn tự động thêm vào mỗi mục blog được sao chép từ blog ngoài vào blog nội bộ của bạn.';
 $string['backupblogshelp'] = 'Nếu được kích hoạt thì blog sẽ được kèm vào các bản sao lưu TRANG tự động';
 $string['blockexternalstitle'] = 'Các blog liên kết ngoài';
-$string['blocktitle'] = 'Tựa đề khối các thẻ của blog';
 $string['blog'] = 'Blog';
 $string['blogaboutthis'] = 'Blog về {$a->type} này';
 $string['blogaboutthiscourse'] = 'Thêm mục về khóa học này';

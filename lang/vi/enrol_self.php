@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'enrol_self', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['enrolenddate'] = 'Ngày kết thúc';
 $string['enrolenddaterror'] = 'Ngày kết thúc ghi danh không được sớm hơn ngày bắt đầu';
 $string['enrolstartdate'] = 'Ngày bắt đầu';
+$string['expirynotifyall'] = 'Người ghi danh và người dùng đã ghi danh';
+$string['expirynotifyenroller'] = 'Chỉ người ghi danh';
 $string['passwordinvalidhint'] = 'Mật khẩu không đúng, xin vui lòng thử lại<br />
 (Gợi ý: mật khẩu bắt đầu bằng \'{$a}\')';
 $string['sendcoursewelcomemessage'] = 'Gửi thư chào mừng tham gia khoá học';

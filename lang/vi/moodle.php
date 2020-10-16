@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'moodle', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -223,7 +223,7 @@ $string['cachecontrols'] = 'Kiểm soát bộ nhớ đệm';
 $string['cancel'] = 'Huỷ bỏ';
 $string['cancelled'] = 'Đã huỷ';
 $string['categories'] = 'Danh mục khoá học';
-$string['categoriesandcoures'] = 'Các trương mục khóa học và khóa học';
+$string['categoriesandcourses'] = 'Các trương mục khóa học và khóa học';
 $string['category'] = 'Mục';
 $string['categoryadded'] = 'Đã thêm mục \'{$a}\'';
 $string['categorybulkaction'] = 'Hành động hàng loạt với các trương mục lựa chọn';
@@ -298,6 +298,7 @@ $string['cookiesenabled_help'] = '<p>Hai cookies được dùng bởi site này.
    tên đăng nhập của bạn trong trình duyệt. Điều này có nghĩa là khi bạn quay trở lại site này trường tên đăng nhập trên
    trang đăng nhập sẽ được điền vào cho bạn. Nếu muốn an toàn bạn có thể huỷ  - khi đó bạn sẽ chỉ phải
    gõ lại tên đăng nhập của bạn mỗi lần bạn đăng nhập.</p>';
+$string['cookiesenabledonlysession'] = 'Trình duyệt của bạn cần phải mở chức năng quản lí cookie';
 $string['cookiesnotenabled'] = 'Thật không may, trình duyệt của bạn chưa mở chức năng quản lí cookie';
 $string['copy'] = 'chép';
 $string['copyasnoun'] = 'chép';
@@ -396,6 +397,12 @@ $string['courserequestsuccess'] = 'Đã lưu yêu cầu mở khoá học của b
 $string['courserequestsupport'] = 'Thông tin hỗ trợ giúp cho quản trị viên đánh giá về yêu cầu này';
 $string['courserestore'] = 'Phục hồi khoá học';
 $string['courses'] = 'Khoá học';
+$string['coursesearch_help'] = '<p>Bạn có thể tìm kiếm nhiều từ cùng lúc và chắt lọc kết quả tìm kiếm như sau:</p>
+<ul>
+<li>word - tìm bất cứ từ nào khớp từ này trong đoạn văn.</li>
+<li>+word - chỉ tìm các từ khớp chính xác.</li>
+<li>-word - không lấy các kết quả chứa từ này.</li>
+</ul>';
 $string['coursesectionsummaries'] = 'Tóm tắt về các phiên của khoá học';
 $string['coursesectiontitle'] = 'Khóa: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
 $string['coursesettings'] = 'Cài đặt mặc định của khóa học';
@@ -491,7 +498,6 @@ $string['deletecheckfull'] = 'Bạn có chắc chắn muốn xoá {$a} ?';
 $string['deletechecktype'] = 'Bạn có chắc muốn xóa {$a->type} này?';
 $string['deletechecktypename'] = 'Bạn có chắc muốn xóa {$a->type} "{$a->name}" này?';
 $string['deletecheckwarning'] = 'Bạn chuẩn bị xoá những tập tin này';
-$string['deletecomment'] = 'Xoá lời bình này';
 $string['deletecompletely'] = 'Xoá hoàn toàn';
 $string['deletecourse'] = 'Xoá một khoá học';
 $string['deletecoursecheck'] = 'Bạn có chắc chắn muốn xoá khoá học này và mọi dữ liệu bên trong?';
@@ -499,6 +505,7 @@ $string['deleted'] = 'Đã xoá';
 $string['deletedactivity'] = '{$a} đã được xoá';
 $string['deletedcourse'] = '{$a} đã được xoá hoàn toàn';
 $string['deletednot'] = 'Không thể xoá {$a} !';
+$string['deletepicture'] = 'Xoá';
 $string['deleteselected'] = 'Xoá các thành phần được chọn';
 $string['deleteselectedkey'] = 'Xoá mật khẩu đã chọn';
 $string['deletingcourse'] = 'Xoá {$a}';
@@ -764,7 +771,6 @@ $string['expand'] = 'Mở rộng';
 $string['expandall'] = 'Mở rộng tất cả';
 $string['expandcategory'] = 'Mở rộng {$a}';
 $string['explanation'] = 'Giải thích';
-$string['extendenrol'] = 'Gia hạn ghi danh (cá nhân)';
 $string['extendperiod'] = 'Giai đoạn gia hạn';
 $string['failedloginattempts'] = 'Bạn đã đăng nhập không thành công {$a->attempts} lần kể từ lượt truy cập gần đây nhất';
 $string['feedback'] = 'Phản hồi';
@@ -774,7 +780,6 @@ $string['filemissing'] = 'Không có {$a}';
 $string['files'] = 'Tập tin';
 $string['filesanduploads'] = 'Tập tin và đăng tải';
 $string['filesfolders'] = 'Tập tin/Thư mục';
-$string['filetoolarge'] = 'quá lớn để đăng tải';
 $string['fileuploadwithcontent'] = 'Đăng tải tập tin không nên bao gồm tham số nội dung';
 $string['filloutallfields'] = 'Xin vui lòng điền đầy đủ thông tin trong biểu mẫu';
 $string['filter'] = 'Bộ lọc';
@@ -864,7 +869,6 @@ $string['gravatarenabled'] = '<a href="http://www.gravatar.com/">Gravatar</a> đ
 $string['group'] = 'Nhóm';
 $string['groupadd'] = 'Thêm nhóm mới';
 $string['groupaddusers'] = 'Đưa thành viên được chọn vào nhóm';
-$string['groupextendenrol'] = 'Gia hạn ghi danh (chung)';
 $string['groupfor'] = 'đối với nhóm';
 $string['groupinfo'] = 'Thông tin về nhóm được chọn';
 $string['groupinfoedit'] = 'Sửa thiết lập cho nhóm';
@@ -1027,7 +1031,17 @@ $string['loginaspasswordexplain'] = '<p>Để dùng chức năng này, bạn c�
 $string['login_failure_logs'] = 'Nhật chí các phiên đăng nhập sai';
 $string['loginguest'] = 'Đăng nhập với tư cách khách';
 $string['loginsite'] = 'Đăng nhập vào trang';
-$string['loginsteps'] = 'Xin chào! Để có thể truy cập vào các khoá học, bạn cần phải đăng kí một tài khoản thành viên.';
+$string['loginsteps'] = 'Xin chào! Để có thể truy cập vào các khoá học, bạn cần phải đăng kí một tài khoản thành viên.
+Mỗi khoá học còn có thể có thêm khóa truy cập riêng, mà sau này bạn sẽ cần đến. Các bước cần làm là như sau:
+<ol>
+<li>Điền mẫu <a href="{$a}">đăng kí thành viên</a> với đầy đủ các thông tin cần thiết.</li>
+<li>Hệ thống sẽ gửi một bức thư tới địa chỉ điện thư của bạn.</li>
+<li>Đọc thư này và mở đường liên kết có trong thư.</li>
+<li>Tài khoản của bạn sẽ được xác nhận; từ đó bạn có thể đăng nhập vào hệ thống.</li>
+<li>Tiếp theo, chọn khoá học mà bạn muốn tham gia.</li>
+<li>Nếu khoá học ấy cần mật khẩu truy cập thì bạn phải khai báo mật khẩu mà giáo viên đã cung cấp. Như thế bạn sẽ được ghi danh vào khoá học.</li>
+<li>Đến lúc này bạn sẽ có quyền truy cập đầy đủ trong khoá học. Cũng từ khi đó, bạn có thể ghi danh và theo học các khoá học khác trên hệ thống này mà không cần phải đăng kí thành viên nữa. Mỗi lượt truy cập bạn đều phải sử dụng kí danh và mật khẩu đã đăng kí như trên.</li>
+</ol>';
 $string['loginstepsnone'] = '<p>Xin chào!</p>
 <p>Để có quyền truy cập đầy đủ vào các khoá học, bạn cần phải đăng kí một tài khoản thành viên.</p>
 <p>Khi đăng kí, bạn chỉ cần chọn một kí danh và một mật khẩu để điền vào biểu mẫu.</p>
@@ -1058,7 +1072,6 @@ $string['markedthistopic'] = 'Chủ đề này được đánh dấu là chủ �
 $string['markthistopic'] = 'Đánh dấu chủ đề này làm chủ đề hiện hành';
 $string['matchingsearchandrole'] = 'So sánh \'{$a->search}\' và {$a->role}';
 $string['maxareabytesreached'] = 'Tập tin (hay tổng kích cỡ của một vài tập tin) lớn hơn dung lượng còn lại trong vùng này.';
-$string['maxbytesforfile'] = 'Tập tin {$a} lớn hơn kích cỡ tối đa cho phép.';
 $string['maxfilesize'] = 'Kích thước tối đa cho các tập tin mới: {$a}';
 $string['maxfilesreached'] = 'Bạn được phép đính kèm tối đa {$a} tập tin vào mục này';
 $string['maximumchars'] = 'Tối đa {$a} kí tự';
@@ -1127,8 +1140,6 @@ $string['missingsummary'] = 'Chưa có phần tóm tắt';
 $string['missingteacher'] = 'Xin chọn một giáo viên';
 $string['missingurl'] = 'Còn thiếu địa chỉ mạng';
 $string['missingusername'] = 'Còn thiếu kí danh';
-$string['modchooserdisable'] = 'Bộ lựa chọn hoạt động tắt';
-$string['modchooserenable'] = 'Bộ lựa chọn hoạt động bật';
 $string['moddoesnotsupporttype'] = 'Mô-đun {$a->modname} không hỗ trợ đăng tải loại {$a->type}';
 $string['modhide'] = 'Đóng';
 $string['modified'] = 'Đã được sửa';
@@ -1433,7 +1444,6 @@ $string['publicprofile'] = 'Hồ sơ công khai';
 $string['publicsitefileswarning'] = 'Chú ý: Ai cũng có thể xem được các tập tin đặt ở đây';
 $string['publicsitefileswarning2'] = 'Lưu ý: Ai cũng có thể đoán và truy cập tập tin ở đây. Để đảm bảo an toàn, bạn nên xóa mọi tập tin sao lưu sau khi sử dụng chúng.';
 $string['publicsitefileswarning3'] = 'Lưu ý: Tập tin để ở đây ai cũng truy cập được hoặc có thể đoán thông quan URL< br/> Để an toàn, các tập tin sao lưu nên được lưu ở những thư mục sao lưu dữ liệu an toàn.';
-$string['publish'] = 'Đăng tải';
 $string['question'] = 'Câu hỏi';
 $string['questionsinthequestionbank'] = 'Các câu hỏi trong ngân hàng';
 $string['readinginfofrombackup'] = 'Đọc thông tin từ bản sao lưu';
@@ -1473,7 +1483,7 @@ $string['rename'] = 'Đổi tên';
 $string['renamefileto'] = 'Đổi tên <b>{$a}</b> thành';
 $string['report'] = 'Báo cáo';
 $string['reports'] = 'Báo cáo';
-$string['repositories'] = 'Không gian lưu trữ';
+$string['repositories'] = 'Kho';
 $string['requestcourse'] = 'Yêu cầu mở khoá học';
 $string['requestedby'] = 'Người yêu cầu:';
 $string['requestedcourses'] = 'Các khoá học được yêu cầu';
@@ -1561,12 +1571,6 @@ $string['searchagain'] = 'Tìm lại';
 $string['searchbyemail'] = 'Tìm kiếm bằng thư điện';
 $string['searchbyusername'] = 'Tìm kiếm bằng kí danh';
 $string['searchcourses'] = 'Tìm kiếm khoá học';
-$string['searchhelp'] = '<p>Bạn có thể tìm kiếm nhiều từ cùng lúc và chắt lọc kết quả tìm kiếm như sau:</p>
-<ul>
-<li>word - tìm bất cứ từ nào khớp từ này trong đoạn văn.</li>
-<li>+word - chỉ tìm các từ khớp chính xác.</li>
-<li>-word - không lấy các kết quả chứa từ này.</li>
-</ul>';
 $string['search_help'] = 'Để tìm kiếm cơ bản một hay vài từ ở bất kỳ đâu trong văn bản, chỉ cần gõ chúng và phân cách bằng khoảng trống. Tất cả các từ nhiều hơn 2 chữ sẽ được sử dụng.
 
 Để tìm kiếm nâng cao, hãy nhấn vào nút tìm kiếm mà không gõ gì cả, hộp tìm kiểm sẽ chuyển đến mẫu tìm kiếm nâng cao.';
@@ -1586,7 +1590,6 @@ $string['secs'] = 'giây';
 $string['section'] = 'Phần';
 $string['sectionname'] = 'Tên phiên';
 $string['sections'] = 'Phần';
-$string['sectionusedefaultname'] = 'Dùng tên phiên mặc định';
 $string['seealsostats'] = 'Xem thêm số liệu thống kê';
 $string['selctauser'] = 'Chọn một người dùng';
 $string['select'] = 'Chọn';
@@ -1635,6 +1638,7 @@ $string['shortnameuser'] = 'Tên rút gọn của người dùng';
 $string['shortsitename'] = 'Tên tắt của hệ thống (vd: một từ)';
 $string['show'] = 'Mở';
 $string['showactions'] = 'Xem hành động';
+$string['showadvancededitor'] = 'Nâng cao';
 $string['showadvancedsettings'] = 'Mở các thiết lập nâng cao';
 $string['showall'] = 'Xem tất cả {$a}';
 $string['showallcourses'] = 'Xam tất cả các khoá học';
@@ -1908,7 +1912,6 @@ $string['uploadthisfile'] = 'Tải tập tin này lên';
 $string['url'] = 'URL';
 $string['used'] = 'Đã dùng';
 $string['usedinnplaces'] = 'Đã dùng tại {$a} vị trí';
-$string['usemessageform'] = 'hoặc dùng mẫu dưới đây để gửi tin nhắn cho các học viên được chọn';
 $string['user'] = 'Thành viên';
 $string['useractivity'] = 'Hoạt động';
 $string['userconfirmed'] = 'Thành viên {$a} đã xác nhận';
@@ -1984,11 +1987,6 @@ $string['withchosenfiles'] = 'Với các tập tin được chọn';
 $string['withdisablednote'] = '{$a} (bị vô hiệu hóa)';
 $string['withoutuserdata'] = 'không có dữ liệu thành viên';
 $string['withselectedusers'] = 'Với các thành viên được chọn...';
-$string['withselectedusers_help'] = '* Gửi thông điệp - Để gửi một thông điệp đến một hay nhiều thành viên
-* Thêm ghi chú mới - Để thêm một ghi chú cho một thành viên đã lựa chọn
-* Thêm ghi chú chung - Để thêm một ghi chú giống nhau cho nhiều thành viên
-* Gia hạn đăng ký (cá nhân) - Để gia hạnh cho một người học đã lựa chọn có thể truy cập vào kháo học, thậm chí khi ngày đăng ký học đã hết hạn
-* Gia hạn đăng ký (chung) - Để gia hạnh cho nhiều người học đã lựa chọn có thể truy cập vào kháo học, thậm chí khi ngày đăng ký học đã hết hạn';
 $string['withuserdata'] = 'với các dữ liệu thành viên';
 $string['wordforstudent'] = 'Từ thay thế cho "Student"';
 $string['wordforstudenteg'] = 'vd: sinh viên, học viên, thành viên, v.v.';

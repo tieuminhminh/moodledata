@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'tag', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addedotag'] = '"{$a}" đã được thêm làm thẻ chính thức.';
 $string['addotags'] = 'Thêm thẻ chính thức';
 $string['addtagtomyinterests'] = 'Thêm "{$a}" vào sở thích của tôi';
 $string['alltagpages'] = 'Tất cả trang thẻ';
@@ -50,15 +49,10 @@ $string['eventtagupdated'] = 'Thẻ đã được cập nhật';
 $string['flag'] = 'Cờ';
 $string['flagasinappropriate'] = 'Gắn cờ không phù hợp';
 $string['id'] = 'id';
-$string['manageofficialtags'] = 'Quản lý các thẻ chính thức';
 $string['managetags'] = 'Quản lý thẻ';
 $string['name'] = 'Tên thẻ';
 $string['namesalreadybeeingused'] = 'Tên thẻ hiện đang được sử dụng';
-$string['newname'] = 'Tên thẻ mới';
 $string['noresultsfor'] = 'Không có kết quả cho "{$a}"';
-$string['officialtag'] = 'Thẻ chính thức';
-$string['otags'] = 'Các thẻ chính thức';
-$string['othertags'] = 'Các thẻ khác (nhập thẻ ngăn cách bởi dấu phẩy)';
 $string['owner'] = 'Chủ sở hữu';
 $string['page-tag-index'] = 'Trang thẻ đơn';
 $string['page-tag-manage'] = 'Quản lý trang thẻ';
@@ -79,16 +73,10 @@ $string['searchtags'] = 'Các thẻ tìm kiếm';
 $string['seeallblogs'] = 'Xem tất cả mục blog được gắn thẻ "{$a}"...';
 $string['select'] = 'Chọn';
 $string['tag'] = 'Thẻ';
-$string['taggedwith'] = 'được gắn thẻ "{$a}"';
 $string['tags'] = 'Thẻ';
 $string['tagsaredisabled'] = 'Các thẻ bị vô hiệu hóa';
-$string['tagtype'] = 'Loại thẻ';
-$string['tagtype_default'] = 'Mặc định';
-$string['tagtype_official'] = 'Chính thức';
 $string['thingstaggedwith'] = '"{$a->name}" được dùng {$a->count} lần';
 $string['thingtaggedwith'] = '"{$a->name}" được dùng một lần';
 $string['timemodified'] = 'Đã được chỉnh sửa';
 $string['typechanged'] = 'Loại thẻ đã được thay đổi';
-$string['updated'] = 'Đã được cập nhật';
 $string['updatetag'] = 'Cập nhật';
-$string['withselectedtags'] = 'Với các thẻ được chọn...';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'notes', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['addnewnote'] = 'Thêm ghi chú mới';
 $string['addnewnoteselect'] = 'Chọn người dùng để viết ghi chú về';
 $string['bynameondate'] = 'bởi {$a->name} - {$a->date}';
-$string['cannotdeletepost'] = 'Lỗi đã xảy ra trong khi xóa bài';
 $string['configenablenotes'] = 'Lỗi lưu trữ các ghi chú về người dùng cá nhân.';
 $string['content'] = 'Nội dung';
 $string['course'] = 'khóa học';
@@ -42,7 +41,6 @@ $string['eventnotecreated'] = 'Ghi chú được tạo';
 $string['eventnotedeleted'] = 'Ghi chú bị xóa';
 $string['eventnotesviewed'] = 'Các ghi chú được xem';
 $string['eventnoteupdated'] = 'Ghi chú được cập nhật';
-$string['groupaddnewnote'] = 'Thêm ghi chú thông thường';
 $string['invalidid'] = 'ID ghi chú được chỉ định không hợp lệ';
 $string['invaliduserid'] = 'ID người dùng không hợp lệ: {$a}';
 $string['nocontent'] = 'Nội dung ghi chú không thể trống';
@@ -61,7 +59,6 @@ $string['publishstate_help'] = 'Một bối cảnh ghi chú xác định ai có 
 * Cá nhân - Ghi chú sẽ chỉ hiển thị với bạn
 * Khóa học - Ghi chú sẽ hiển thị với các giáo viên trong khóa học này
 * Trang - Ghi chú sẽ hiển thị với các giáo viên trong tất cả các khóa học';
-$string['selectnotestate'] = 'Chọn trạng thái ghi chú';
 $string['site'] = 'trang';
 $string['sitenotes'] = 'Ghi chú trang';
 $string['unknown'] = 'không rõ';

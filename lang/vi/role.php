@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'role', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,6 @@ $string['backup:anonymise'] = 'Ẩn dữ liệu người dùng khi sao lưu';
 $string['backup:backupactivity'] = 'Sao lưu các hoạt động';
 $string['backup:backupcourse'] = 'Sao lưu các khóa học';
 $string['backup:backupsection'] = 'Sao lưu các phân mục';
-$string['backup:backuptargethub'] = 'Sao lưu cho cổng trung tâm';
 $string['backup:backuptargetimport'] = 'Sao lưu để nhập';
 $string['backup:configure'] = 'Thiết lập lựa chọn sao lưu';
 $string['backup:downloadfile'] = 'Tải tệp từ các khu vực sao lưu';
@@ -107,8 +106,6 @@ $string['cohort:view'] = 'Xem các đoàn thể trên toàn trang';
 $string['comment:delete'] = 'Xóa bình luận';
 $string['comment:post'] = 'Gửi bình luận';
 $string['comment:view'] = 'Đọc bình luận';
-$string['community:add'] = 'Sử dụng khối cộng đồng này đẻ tìm các cổng trung tâm và khóa học';
-$string['community:download'] = 'Tải khóa học từ khối cộng đồng';
 $string['confirmaddadmin'] = 'Bạn thật sự muốn thêm người dùng <strong>{$a}</strong> làm quản trị trang mới?';
 $string['confirmdeladmin'] = 'Bạn thật sự muốn xóa người dùng <strong>{$a}</strong> khỏi danh sách các quản trị trang?';
 $string['confirmroleprevent'] = 'Bạn thật sự muốn xóa <strong>{$a->role}</strong> từ danh sách các vai trò cho phép quyền {$a->cap} trong bối cảnh {$a->context}?';
@@ -138,7 +135,6 @@ $string['course:managegroups'] = 'Quản lý nhóm';
 $string['course:managescales'] = 'Quản lý thang điểm';
 $string['course:markcomplete'] = 'Đánh dấu người dùng hoàn thành trong bản hoàn thành khóa học';
 $string['course:movesections'] = 'Chuyển các mục';
-$string['course:publish'] = 'Đăng tải một khóa học vào cổng trung tâm';
 $string['course:request'] = 'Yêu cầu các khóa học mới';
 $string['course:reset'] = 'Đặt lại khóa học';
 $string['course:reviewotherusers'] = 'Kiểm duyệt các người dùng khác';
@@ -290,7 +286,6 @@ $string['restore:createuser'] = 'Tạo các người dùng khi phục hồi';
 $string['restore:restoreactivity'] = 'Phục hồi các hoạt động';
 $string['restore:restorecourse'] = 'Phục hồi các khóa học';
 $string['restore:restoresection'] = 'Phục hồi các phân mục';
-$string['restore:restoretargethub'] = 'Phục hồi từ các tệp được nhắm làm cổng trung tâm';
 $string['restore:restoretargetimport'] = 'Phục hồi từ các tệp được nhắm làm bản nhập';
 $string['restore:rolldates'] = 'Được phép cuốn các ngày giờ thiết lập hoạt động khi phục hồi';
 $string['restore:uploadfile'] = 'Đăng tải tệp lên vùng sao lưu';
@@ -345,7 +340,6 @@ $string['site:viewfullnames'] = 'Luôn thấy tên đầy đủ của người d
 $string['site:viewparticipants'] = 'Xem thành phần tham gia';
 $string['site:viewreports'] = 'Xem báo cáo';
 $string['site:viewuseridentity'] = 'Xem danh tính người dùng đầy đủ theo danh sách';
-$string['tag:create'] = 'Tạo các thẻ mới';
 $string['tag:edit'] = 'Sửa các thẻ tồn tại';
 $string['tag:editblocks'] = 'Sửa các khối trong các trang thẻ';
 $string['tag:flag'] = 'Gắn cờ không phù hợp';

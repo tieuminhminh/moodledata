@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_html', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   block_html
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,5 @@ $string['configcontent'] = 'Nội dung';
 $string['configtitle'] = 'Tên khối';
 $string['html:addinstance'] = 'Thêm khối HTML mới';
 $string['html:myaddinstance'] = 'Thêm khối HTML mới vào Nhà của tôi';
-$string['leaveblanktohide'] = 'Để trống để giấu tên khối';
 $string['newhtmlblock'] = '(khối HTML mới)';
 $string['pluginname'] = 'HTML';

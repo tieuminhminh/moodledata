@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_yumymedia', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'local_yumymedia', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   local_yumymedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

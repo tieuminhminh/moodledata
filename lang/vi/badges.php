@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'badges', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,10 +209,8 @@ $string['editsettings'] = 'Chỉnh sửa các thiết lập';
 $string['enablebadges'] = 'Kích hoạt các huy hiệu';
 $string['error:backpackdatainvalid'] = 'Dữ liệu trả về từ hành trang không hợp lệ.';
 $string['error:backpackemailnotfound'] = 'Email \'{$a}\' không gắn liền với hành trang.  Bạn cần <a href="http://backpack.openbadges.org">tạo hành trang</a> cho tài khoản đó hoặc đăng nhập với địa chỉ email khác.';
-$string['error:backpackloginfailed'] = 'Bạn không thể kết nối với hành trang ngoại vì nguyên nhân sau: {$a}';
 $string['error:backpacknotavailable'] = 'Trang của bạn không thể truy cập từ Internet, vì vậy bất kì huy hiệu được trao từ trang này không thể xác minh được bởi các dịch vụ hành trang ngoại.';
 $string['error:backpackproblem'] = 'Có vấn đề kết nối đến nhà cung cấp dịch vụ hành trang của bạn. Hãy thử lại sau.';
-$string['error:badjson'] = 'Thử kết nối đã trả về dữ liệu không phù hợp.';
 $string['error:cannotact'] = 'Không thể kích hoạt huy hiệu.';
 $string['error:cannotawardbadge'] = 'Không thể trao huy hiệu cho người dùng.';
 $string['error:clone'] = 'Không thể sao y huy hiệu.';
@@ -225,7 +223,6 @@ $string['error:invalidcriteriatype'] = 'Loại tiêu chuẩn không hợp lệ.'
 $string['error:invalidexpiredate'] = 'Ngày hết hạn trong tương lai.';
 $string['error:invalidexpireperiod'] = 'Chu kì hết hạn không thể âm hoặc bằng 0.';
 $string['error:noactivities'] = 'Không có hoạt động cùng tiêu chuẩn hoàn thành được kích hoạt trong khóa học này.';
-$string['error:noassertion'] = 'Không có xác nhận được trả về bởi Persona. Có thể bạn đã đóng hội thoại trước khi hoàn tất quá trình đăng nhập.';
 $string['error:nocourses'] = 'Hoàn thành khóa học không được kích hoạt cho bất kì khóa học nào trong trang này, vì vậy không có cái nào để hiển thị. Hoàn thành khóa học có thể được kích hoạt trong các thiết lập khóa học.';
 $string['error:nogroups'] = '<p>Không có bộ sưu tập công cộng các huy hiệu có trong hành trang của bạn. </p>
 <p>Chỉ có các bộ sưu tập công cộng được hiển thị, <a href="http://backpack.openbadges.org">xem hành trang của bạn</a>  để tạo vài bộ sưu tập công cộng.</p>';
@@ -238,7 +235,6 @@ $string['error:nosuchrole'] = 'Cảnh báo: Vai trò này không còn.';
 $string['error:nosuchuser'] = 'Người dùng với địa chỉ email này không có tài khoản với nhà cung cấp hành trang hiện tại.';
 $string['error:notifycoursedate'] = 'Cảnh báo: Các huy hiệu đi kèm với khóa học và các ghi nhận hoàn thành khóa học sẽ không được trao đến khi ngày khóa học bắt đầu.';
 $string['error:parameter'] = 'Cảnh báo: Nên chọn ít nhất một tham số để đảm bảo quy trình trao huy hiệu phù hợp.';
-$string['error:personaneedsjs'] = 'Hiện tại, Javascript được yêu cầu để kết nối hành trang của bạn. Nếu có thể, hãy kích hoạt Javascript và tải lại trang.';
 $string['error:requesterror'] = 'Yêu cầu kết nối bất thành (mã lỗi {$a}).';
 $string['error:requesttimeout'] = 'Yêu cầu kết nối hết giờ trước khi nó có thể hoàn thành.';
 $string['error:save'] = 'Không thể lưu huy hiệu.';
@@ -324,10 +320,6 @@ $string['notifyweekly'] = 'Hàng tuần';
 $string['numawards'] = 'Huy hiệu này được trao cho <a href="{$a->link}">{$a->count}</a> người dùng.';
 $string['numawardstat'] = 'Huy hiệu này đã được trao cho {$a} người dùng.';
 $string['overallcrit'] = 'trong tiêu chuẩn lựa chọn được hoàn thành.';
-$string['personaconnection'] = 'Đăng nhập với email của bạn';
-$string['personaconnection_help'] = 'Persona là hệ thống nhận diện bản thân trên web, sử dụng địa chỉ email mà bạn sỡ hữu. Hành trang Open Badges sử dụng Persona làm hệ thống đăng nhập, vì vậy để có thể kết nối hành trang bạn cần tài khoản Persona.
-
-Để biết thêm thông tin về Persona xem <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Những người nhận huy hiệu tiềm năng';
 $string['recipientdetails'] = 'Thông tin chi tiết người nhận';
 $string['recipientidentificationproblem'] = 'Không thể tìm thấy người nhận huy hiệu này trong số người dùng hiện tại.';
@@ -351,7 +343,6 @@ $string['selectgroup_end'] = 'Chỉ các bộ sưu tập công công được hi
 $string['selectgroup_start'] = 'Chọn các bộ sưu tập từ hành trang của bạn để hiển thị trên trang này:';
 $string['selecting'] = 'Với các huy hiệu được chọn...';
 $string['setup'] = 'Thiết lập kết nối';
-$string['signinwithyouremail'] = 'Đăng nhập với email của bạn';
 $string['sitebadges'] = 'Huy hiệu trang';
 $string['sitebadges_help'] = 'Huy hiệu trang chỉ có thể được trao cho người dùng đối với các hoạt động liên quan đến trang. Bao gồm việc hoàn thành một tập hợp các khóa học hay các thành phần hồ sơ người dùng. Huy hiệu trang có thể được trao thủ công cho người khác bởi một người dùng.';
 $string['status'] = 'Trạng thái huy hiệu';

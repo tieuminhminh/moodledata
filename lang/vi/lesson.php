@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'lesson', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,6 @@ $string['checkedthisone'] = 'Điều đó được kiểm tra .';
 $string['checknavigation'] = 'Kiểm tra tính thực thi';
 $string['checkquestion'] = 'Kiểm tra câu hỏi';
 $string['classstats'] = 'Các thống kê lớp';
-$string['clicktopost'] = 'Kích vào đây để gửi điểm của bạn lên danh sách các điểm cao.';
 $string['clusterjump'] = 'Unseen Question within a Cluster';
 $string['clustertitle'] = 'Cluster';
 $string['comments'] = 'Bình luận của bạn';
@@ -73,7 +72,6 @@ $string['description'] = 'Mô tả';
 $string['detailedstats'] = 'Các thông báo chi tiết';
 $string['didnotanswerquestion'] = 'Không trả lời câu hỏi này.';
 $string['didnotreceivecredit'] = 'Không nhận chứng chỉ';
-$string['displayhighscores'] = 'Hiển thị các điểm cao';
 $string['displayinleftmenu'] = 'Hiển thị kiểu thực đơn bên trái?';
 $string['displayleftmenu'] = 'Hiển thị thực đơn bên trái';
 $string['displayofgrade'] = 'Hiển thị điểm  (chỉ dành cho sinh viên)';
@@ -90,7 +88,6 @@ $string['endofbranch'] = 'Kết thúc nhánh';
 $string['endofclustertitle'] = 'Kết thúc của nhóm';
 $string['endoflesson'] = 'Kết thúc bài học';
 $string['enteredthis'] = 'Nhập vào đây.';
-$string['entername'] = 'Nhập vào một tên riêng';
 $string['enterpassword'] = 'Vui lòng gõ vào mật khẩu :';
 $string['eolstudentoutoftime'] = 'Chú ý:  Bạn không được thực hiện quá thời gian của bài này.Câu trả lời cuối cùng của bạn sẽ không được tính nếu nó được trả lời ngoài thời gian quy định';
 $string['eolstudentoutoftimenoanswers'] = 'Bạn không trả lời bất kỳ câu hỏi nào. Bạn sẽ nhận được không điểm.';
@@ -150,7 +147,6 @@ $string['loginfail'] = 'Việc đăng nhập bị thất bại, vui lòng thử 
 $string['lowscore'] = 'Điểm thấp';
 $string['lowtime'] = 'Low Time';
 $string['matchesanswer'] = 'So khớp với câu trả lời';
-$string['maxhighscores'] = 'Số các điểm cao được hiển thị';
 $string['maximumnumberofanswersbranches'] = 'Số đáp án đưa ra lớn nhất cho mỗi câu hỏi';
 $string['maximumnumberofattempts'] = 'Số lần thử lớn nhất';
 $string['maximumnumberofattempts_help'] = '<p>Giá trị này quyết định số lần được phép trả lời tối đa của học viên
@@ -198,7 +194,6 @@ $string['normal'] = 'Đường dẫn cho bài học tiếp theo';
 $string['notcompleted'] = 'Không được hoàn thành';
 $string['notdefined'] = 'Không được định nghĩa';
 $string['notenoughsubquestions'] = 'Không đủ câu hỏi phụ được định nghĩa!<br /> Bạn có muốn quay trở lại và sửa chữa câu hỏi này ?';
-$string['nothighscore'] = 'Bạn không kiếm được điểm cao nhất {$a}  danh sách điểm cao.';
 $string['notitle'] = 'Không có tiêu đề';
 $string['numberofcorrectanswers'] = 'Số câu trả lời đúng: {$a}';
 $string['numberofcorrectmatches'] = 'Số câu trả lời đúng : {$a}';
@@ -286,7 +281,6 @@ $string['thefollowingpagesjumptothispage'] = 'Những trang sau chuyển tới t
 $string['thispage'] = 'Trang này';
 $string['timeremaining'] = 'Thời gian còn lại';
 $string['timetaken'] = 'Thời gian đã sử dụng';
-$string['topscorestitle'] = 'Điểm cao nhất  {$a} điểm đối với {$a} bài';
 $string['true'] = 'Đúng';
 $string['unseenpageinbranch'] = 'Không thấy câu hỏi trong một nhánh';
 $string['updatefailed'] = 'Cập nhật bị thất bại';
@@ -294,14 +288,12 @@ $string['usemaximum'] = 'Giá trị lớn nhất';
 $string['usemean'] = 'Giá trị trung bình';
 $string['usepassword'] = 'Mật khẩu bào vệ  bài học';
 $string['viewgrades'] = 'Quan sát các điểm';
-$string['viewhighscores'] = 'Quan sát danh sách các điểm cao .';
 $string['welldone'] = 'thực hiện tốt!';
 $string['whatdofirst'] = 'Bạn thích làm gì đầu tiên?';
 $string['wronganswerjump'] = 'Đi tới câu trả lời sai';
 $string['wronganswerscore'] = 'Số điểm dành cho câu trả lời sai';
 $string['wrongresponse'] = 'Câu trả lời sai';
 $string['youhaveseen'] = 'Bạn vừa nhìn thấy một số trang của bài học này.<br /> Bạn có muốn bắt đầu ở trang sau ?';
-$string['youmadehighscore'] = 'Bạn phải đưa nó lên trên đỉnh {$a} danh sách các điểm.';
 $string['youranswer'] = 'Câu trả lời của bạn';
 $string['yourcurrentgradeis'] = 'Điểm số hiện tại của bạn là {$a}';
 $string['youshouldview'] = 'Bạn nên xem ít nhất: {$a}';

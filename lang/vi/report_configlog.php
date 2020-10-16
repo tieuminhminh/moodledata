@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'report_configlog', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = 'Các thay đổi  cấu hình';
-$string['oldvalue'] = 'giá trị gốc';
 $string['plugin'] = 'Plugin';
 $string['pluginname'] = 'Các thay đổi  cấu hình';
 $string['setting'] = 'Thiết lập';
 $string['timemodified'] = 'Ngày tháng';
-$string['value'] = 'giá trị mới';
+$string['valuenew'] = 'giá trị mới';
+$string['valueold'] = 'giá trị gốc';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'grades', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,7 +75,6 @@ $string['calculation'] = 'Tính toán';
 $string['calculation_help'] = 'Phép tính điểm là công thức dùng để xác định điểm. Công thức nên bắt đấu với dấu bằng (=) và có thể sử dụng các toán tử, như max, min và sum. Nếu mong muốn, các mục điểm khác có thể được bao gồm trong phép tính bằng cách nhập số ID trong ngoặc vuông kép.';
 $string['cannotaccessgroup'] = 'Không thể truy cập điểm của nhóm được chọn, xin lỗi.';
 $string['categories'] = 'Các phụ mục';
-$string['categoriesanditems'] = 'Các phụ mục và mục';
 $string['category'] = 'Phụ mục';
 $string['categoryedit'] = 'Chỉnh sửa phụ mục';
 $string['categoryname'] = 'Tên phụ mục';

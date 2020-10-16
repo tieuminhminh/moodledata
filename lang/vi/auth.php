@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'auth', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,8 +81,6 @@ Bạn đã yêu cầu thay đổi địa chỉ email cho tài khoản người d
 {$a->url}';
 $string['emailupdatesuccess'] = 'Địa chỉ email của người dùng <em>{$a->fullname}</em> đã được cập nhật thành <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Xác định thư điện đã được cập nhật tại {$a->site}';
-$string['enterthenumbersyouhear'] = 'Nhập vào các số bạn nghe';
-$string['enterthewordsabove'] = 'Nhập vào các từ trên đây';
 $string['errormaxconsecutiveidentchars'] = 'Mật khẩu phải có ít nhất là {$a} ký tự định dạng khác nhau.';
 $string['errorminpassworddigits'] = 'Mật khẩu phải có ít nhất là {$a} ký tự số.';
 $string['errorminpasswordlength'] = 'Mật khẩu phải có chiều dài ít nhất là {$a} ký tự.';
@@ -99,9 +97,6 @@ $string['forcechangepasswordfirst_help'] = 'Bắt buộc thay đổi mật khẩ
 $string['forcechangepassword_help'] = 'Bắt buộc thay đổi mật khẩu khi người dùng đăng nhập Moodle lần kế tiếp';
 $string['forgottenpassword'] = 'Nếu bạn nhập một URL ở đây, nó sẽ được sử dụng làm trang phục hồi mật khẩu cho trang này. Việc này dự định cho các trang nơi mà mật khẩu được kiểm soát hoàn toàn ngoài Moodle. Để trống nhằm sử dụng phục hồi mật khẩu mặc định.';
 $string['forgottenpasswordurl'] = 'Quên URL mật khẩu';
-$string['getanaudiocaptcha'] = 'Chọn CAPTCHA âm thanh';
-$string['getanimagecaptcha'] = 'Chọn CAPTCHA hình ảnh';
-$string['getanothercaptcha'] = 'Chọn một loại CAPTCHA khác';
 $string['guestloginbutton'] = 'Nút đăng nhập cho khách';
 $string['incorrectpleasetryagain'] = 'Sai. Vui lòng thử lại.';
 $string['infilefield'] = 'Trường phải có trong tập tin';

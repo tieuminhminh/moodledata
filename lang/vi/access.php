@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'access', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,6 @@ $string['activitynext'] = 'Hoạt động tới';
 $string['activityprev'] = 'Hoạt động trước';
 $string['breadcrumb'] = 'Vệt mẩu bánh mì';
 $string['hideblocka'] = 'Ẩn khối {$a}';
-$string['monthnext'] = 'Tháng tới';
-$string['monthprev'] = 'Tháng trước';
 $string['showblocka'] = 'Hiện khối {$a}';
 $string['sitemap'] = 'Bản đồ trang';
 $string['skipa'] = 'Bỏ qua {$a}';

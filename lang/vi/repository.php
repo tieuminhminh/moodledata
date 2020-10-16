@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'repository', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -150,9 +150,9 @@ $string['lostsource'] = 'Lỗi. Thiếu nguồn. {$a}';
 $string['makefileinternal'] = 'Tạo bản sao tệp này';
 $string['makefilelink'] = 'Liên kết tệp trực tiếp';
 $string['makefilereference'] = 'Tạo một bí danh/lối tắt đến tệp';
-$string['manage'] = 'Quản lí không gian lưu trữ';
+$string['manage'] = 'Quản lí kho';
 $string['manageurl'] = 'Quản lí';
-$string['manageuserrepository'] = 'Quản lí không gian lưu trữ cá nhân';
+$string['manageuserrepository'] = 'Quản lí kho cá nhân';
 $string['moving'] = 'Đang chuyển';
 $string['name'] = 'Tên';
 $string['newfolder'] = 'Thư mục mới';
@@ -163,8 +163,8 @@ $string['nofilesavailable'] = 'Không có tệp';
 $string['nomorefiles'] = 'Không cho phép thêm đính kèm';
 $string['nopathselected'] = 'Chưa chọn đường dẫn đích (nhấn đúp nút cây để chọn)';
 $string['nopermissiontoaccess'] = 'Không được phép truy cập kho này.';
-$string['norepositoriesavailable'] = 'Xin lỗi, không có không gian lưu trữ nào hiện tại của bạn có thể trả về các tệp theo định dạng yêu cầu.';
-$string['norepositoriesexternalavailable'] = 'Xin lỗi, không có không gian lưu trữ nào hiện tại của bạn có thể trả về các tệp ngoài.';
+$string['norepositoriesavailable'] = 'Xin lỗi, không có kho nào hiện tại của bạn có thể trả về các tệp theo định dạng yêu cầu.';
+$string['norepositoriesexternalavailable'] = 'Xin lỗi, không có kho nào hiện tại của bạn có thể trả về các tệp ngoài.';
 $string['noresult'] = 'Không có kết quả tìm kiếm';
 $string['notyourinstances'] = 'Bạn không thể xem/sửa các thực thể kho của người dùng khác';
 $string['off'] = 'Được kích hoạt nhưng ẩn';
@@ -191,11 +191,11 @@ $string['refreshnonjsfilepicker'] = 'Hãy đóng cửa sổ và làm mới bộ 
 $string['removed'] = 'Kho đã bị  xóa';
 $string['renameall'] = 'Đặt tên tất cả';
 $string['renameto'] = 'Đặt tên thành "{$a}"';
-$string['repositories'] = 'Không gian lưu trữ';
-$string['repository'] = 'Không gian lưu trữ';
-$string['repositorycourse'] = 'Không gian lưu trữ khóa học';
-$string['repositoryerror'] = 'Không gian lưu trữ từ xa trả về lỗi: {$a}';
-$string['repositoryicon'] = 'Biểu tượng Không gian lưu trữ';
+$string['repositories'] = 'Các kho';
+$string['repository'] = 'Kho';
+$string['repositorycourse'] = 'Các kho khóa học';
+$string['repositoryerror'] = 'Kho từ xa trả về lỗi: {$a}';
+$string['repositoryicon'] = 'Biểu tượng kho';
 $string['save'] = 'Lưu';
 $string['saveas'] = 'Lưu thành';
 $string['saved'] = 'Đã được lưu';

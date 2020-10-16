@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'auth_ldap', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,6 @@ $string['auth_ldap_bind_pw'] = 'Mật khẩu đối với ràng buộc người 
 $string['auth_ldap_bind_settings'] = 'Các thiết lập ràng buộc';
 $string['auth_ldap_contexts'] = 'Danh sách các ngữ cảnh mà ở đó những người sử dụng được xác định. Ngăn cách các ngữ cảnh khác nhau bởi dấu \';\'. Ví dụ : \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_create_context'] = 'Nếu bạn có khả năng tạo người dùng bằng sự chứng thực qua Email, chỉ ra ngữ cảnh mà ở đó những người dùng được tạo. Ngữ cảnh này nên khác nhau đối với những người dùng khác nhau để ngăn chặn các vấn đề bảo mật. Bạn không cần thêm ngữ cảnh này tới  ldap_context-variable, Moodle sẽ tìm kiếm người dùng từ ngữ cảnh này một cách tự động .<br/><b>Chú ý!</b> Bạn phải thay đổi hàm auth_user_create() trong file auth/ldap/lib.php để yêu cầu người dùng sáng tạo ra công việc';
-$string['auth_ldap_creators'] = 'Danh sách các nhóm mà các thành viên của chúng được cho phép để tạo các cua học mới. Ngăn cách các nhóm bởi \';\'. Theo cách thông thường thì điều đó giống như \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldapdescription'] = 'Phương pháp này đưa ra sự chứng thực lại một máy chủ LDAP bên ngoài.
 
                                   Nếu tên đăng nhập và mật khẩu đưa ra hợp lệ, Moodle tạo một người dùng mới

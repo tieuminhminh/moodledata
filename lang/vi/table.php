@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'table', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'table', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   table
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,3 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['downloadas'] = 'Tải dữ liệu bảng làm {$a->formatsmenu} {$a->downloadbutton}';
-$string['downloadcsv'] = 'Tệp văn bản các trị ngăn cách bởi dấu phẩy';
-$string['downloadexcel'] = 'Bảng tính Excel';
-$string['downloadods'] = 'Bảng tính OpenDocument';
-$string['downloadoptions'] = 'Tùy chọn tải về';
-$string['downloadtsv'] = 'Tệp văn bản các trị ngăn cách bởi tab';
-$string['downloadxhtml'] = 'Tài liệu XHTML chưa phân trang';

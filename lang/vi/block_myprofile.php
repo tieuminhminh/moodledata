@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myprofile', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_myprofile', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myprofile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,6 @@ $string['display_phone1'] = 'Hiển thị số điện thoại 1';
 $string['display_phone2'] = 'Hiển thị số điện thoại 2';
 $string['display_picture'] = 'Hiển thị ảnh';
 $string['display_skype'] = 'Hiển thị Skype';
-$string['display_un'] = 'Hiển thị tên';
 $string['display_yahoo'] = 'Hiển thị Yahoo';
 $string['myprofile:addinstance'] = 'Thêm khối người dùng đã đăng nhập';
 $string['myprofile:myaddinstance'] = 'Thêm khối người dùng đã đăng nhập vào Nhà của tôi';

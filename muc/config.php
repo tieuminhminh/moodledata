@@ -171,6 +171,22 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'core/calendar_categories' => 
+    array (
+      'mode' => 2,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'invalidationevents' => 
+      array (
+        0 => 'changesincoursecat',
+        1 => 'changesincategoryenrolment',
+      ),
+      'ttl' => 900,
+      'component' => 'core',
+      'area' => 'calendar_categories',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'core/capabilities' => 
     array (
       'mode' => 1,
@@ -349,6 +365,18 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'core/roledefs' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 30,
+      'component' => 'core',
+      'area' => 'roledefs',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'core/plugin_functions' => 
     array (
       'mode' => 1,
@@ -408,6 +436,18 @@
       ),
       'component' => 'core',
       'area' => 'tagindexbuilder',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/contextwithinsights' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 1,
+      'component' => 'core',
+      'area' => 'contextwithinsights',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
@@ -479,6 +519,58 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'core/modelfirstanalyses' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'component' => 'core',
+      'area' => 'modelfirstanalyses',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/portfolio_add_button_portfolio_instances' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'portfolio_add_button_portfolio_instances',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/course_user_dates' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'course_user_dates',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/calculablesinfo' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => false,
+      'simpledata' => false,
+      'component' => 'core',
+      'area' => 'calculablesinfo',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/grade_letters' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 100,
+      'component' => 'core',
+      'area' => 'grade_letters',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'availability_grade/scores' => 
     array (
       'mode' => 1,
@@ -498,6 +590,17 @@
       'ttl' => 3600,
       'component' => 'availability_grade',
       'area' => 'items',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'mod_forum/forum_is_tracked' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'mod_forum',
+      'area' => 'forum_is_tracked',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
@@ -559,6 +662,18 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'tool_dataprivacy/purpose_overrides' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => false,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 50,
+      'component' => 'tool_dataprivacy',
+      'area' => 'purpose_overrides',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'tool_dataprivacy/contextlevel' => 
     array (
       'mode' => 1,
@@ -591,6 +706,14 @@
       'staticaccelerationsize' => 10,
       'component' => 'tool_monitor',
       'area' => 'eventsubscriptions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'tool_policy/policy_optional' => 
+    array (
+      'mode' => 4,
+      'component' => 'tool_policy',
+      'area' => 'policy_optional',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'error', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -270,7 +270,6 @@ $string['logfilenotavailable'] = 'Nhật kí không hiện hữu';
 $string['loginasnoenrol'] = 'Bạn không thể sử dụng ghi danh và rút tên khi ở trong phiên hoạt động khóa học "Đăng nhập với tên"';
 $string['loginasonecourse'] = 'Bạn không thể vào khóa học này.<br /> Bạn phải ngắt phiên hoạt động "Đăng nhập với tên" trước khi vào khóa học khác.';
 $string['maxareabytes'] = 'Tập tin lớn hơn dung lượng còn lại trong vùng.';
-$string['maxbytes'] = 'Tập tin lớn hơn kích thước tối đa được cho phép.';
 $string['messagingdisable'] = 'Tin nhắn bị vô hiệu hóa trên trang này';
 $string['mimetexisnotexist'] = 'Hệ thống của bạn không được thiết lập để chạy mimeTeX. Bạn cần tải bản thực thi phù hợp cho thể thức PHP_OS từ <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, hoặc lấy mã nguồn C từ <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, biên dịch nó và đặt bản thực thi vào thư mục moodle/filter/tex/ của bạn.';
 $string['mimetexnotexecutable'] = 'mimetex tuỳ chỉnh không thể thực thi!';

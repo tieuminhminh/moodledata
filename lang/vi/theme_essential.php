@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_essential', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'theme_essential', language 'vi', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_essential
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_blog_tags', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   block_blog_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['blog_tags:addinstance'] = 'Thêm khối các thẻ blog';
+$string['configtitle'] = 'Tựa đề khối các thẻ của blog';
 $string['pluginname'] = 'Các thẻ blog';

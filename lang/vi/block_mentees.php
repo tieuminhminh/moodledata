@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mentees', language 'vi', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_mentees', language 'vi', branch 'MOODLE_38_STABLE'
  *
  * @package   block_mentees
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtitle'] = 'Tên khối';
 $string['configtitleblankhides'] = 'Tên khối (không tên nếu để trống)';
-$string['leaveblanktohide'] = 'Để trống để ẩn tiêu đề';
 $string['mentees:addinstance'] = 'Thêm khối trợ giảng';
 $string['mentees:myaddinstance'] = 'Thêm khối trợ giảng vào Nhà của tôi';
 $string['newmenteesblock'] = '(khối "Kèm riêng" mới)';
