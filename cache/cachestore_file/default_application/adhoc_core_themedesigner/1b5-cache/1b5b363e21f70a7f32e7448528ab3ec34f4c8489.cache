@@ -1,0 +1,14 @@
+a:2:{s:4:"data";s:2165:"/** Path: plugin report_outline .' **/
+#page-report-outline-index td.numviews {text-align: right;}
+#page-report-outline-index tr.section {text-align: center;}
+#page-report-outline-index td.lastaccess {font-size: .8em;}
+#page-report-outline-user .section .content {margin-left: 30px;margin-right: 30px;}
+#page-report-outline-user .section h2 {margin-top: 0;}
+#page-report-outline-user .section {margin-left: 30px;margin-right: 30px;margin-bottom: 20px;}
+#page-report-outline-user .section {border-width: 1px;border-style: solid;padding: 10px;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname
+.theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:focus {color: #3a454b;}
+.theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
+
+";s:7:"created";i:1603792154;}

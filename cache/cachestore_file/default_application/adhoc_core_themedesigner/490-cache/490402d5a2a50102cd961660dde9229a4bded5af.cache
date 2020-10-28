@@ -1,0 +1,12 @@
+a:2:{s:4:"data";s:2088:"/** Path: plugin atto_h5p .' **/
+.attoh5poverlay {display: none;}
+.attoh5pinstructions {max-width: 500px;}
+.editor_atto_content_wrap .h5p-placeholder + br {display: none;}
+.editor_atto_content_wrap .h5p-placeholder {color: #6c757d;width: 100%;word-break: break-all;height: 260px;cursor: pointer;background: url("/theme/image.php?theme=adaptable&component=atto_h5p&image=icon-white") center center/100px auto no-repeat #6c757d;}
+.atto_h5p_button .icon {width: 24px;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname
+.theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:focus {color: #3a454b;}
+.theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
+
+";s:7:"created";i:1603792155;}

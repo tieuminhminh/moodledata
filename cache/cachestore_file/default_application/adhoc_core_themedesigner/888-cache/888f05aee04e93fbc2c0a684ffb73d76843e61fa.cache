@@ -1,0 +1,19 @@
+a:2:{s:4:"data";s:3410:"/** Path: theme  messages.' **/
+@media screen and (min-width: 768px) {.message-drawer, .message-drawer .btn, .message-drawer .btn a, .message-drawer .form-control, .message-app.drawer, .message-app.drawer .btn, .message-app.drawer .btn a, .message-app.drawer .form-control {font-size: 105%;}
+	.message-drawer .btn, .message-app.drawer .btn {height: auto;}
+	.message-drawer, .message-app.drawer {width: 400px;}
+	.message-drawer.hidden, .message-app.drawer.hidden {right: -400px;}}
+[data-region='message-drawer'] [data-region='view-overview'] .input-group .input-group-text {border-radius: 25px 0 0 25px;}
+[data-region='message-drawer'] [data-region='view-overview'] .input-group [data-region='view-overview-search-input'] {border-radius: 0 25px 25px 0;}
+[data-region='message-drawer'] [data-region='search-input'] {border-radius: 25px;margin-right: 4px;}
+[data-region='message-drawer'] [data-region='header-container'] [data-region='contact-request-count'] {color: #fff;}
+[data-region='message-drawer'] [data-region='header-container'] [data-region='contact-request-count'], [data-region='message-drawer'] [data-region='body-container'] [data-region='section-unread-count'], [data-region='message-drawer'] [data-region='body-container'] [data-region='unread-count'] {background-color: red !important;border-radius: 25px;height: 25px;}
+[data-region='message-drawer'] [data-region='body-container'] [data-region='last-message-date'] {padding-top: .1rem !important;}
+[data-region='message-drawer'] [data-region='body-container'] .btn-link {background-color: #fff;border-radius: 0;color: inherit !important;}
+[data-region='message-drawer'] [data-region='content-messages-footer-container'] .btn-link {align-items: center;display: flex;justify-content: center;padding: 1px 1px 0 0 !important;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname
+.theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:focus {color: #3a454b;}
+.theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
+
+";s:7:"created";i:1603792156;}

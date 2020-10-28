@@ -1,0 +1,158 @@
+a:2:{s:4:"data";s:16650:"/** Path: theme  course.' **/
+#completionprogressid {display: none;margin-bottom: 15px;}
+#page-coursetitle h1 {font-size: 1.5rem;text-align: center;}
+#frontpage-available-course-list h2 {display: none;}
+#frontpage-available-course-list {display: block;flex-flow: row wrap;justify-content: space-between;flex-grow: 1;flex-wrap: wrap;}
+#page-site-index .courses {display: flex;flex-flow: row wrap;}
+.paging-morelink {display: block;clear: both;width: 100%;}
+@media (min-width: 992px) {#page-site-index .courses {max-width: 960px;}}
+@media (min-width: 1200px) {#page-site-index .courses {max-width: 100%;}}
+.coursebox.panel .panel-body {border: 4px solid #3a454b;margin: 2px;}
+.coursebox.panel, .coursebox.panel .panel-body {position: relative;}
+.coursebox .boxfooter {clear: both;margin-bottom: 30px;}
+.coursebox .coursebtn {bottom: 10px;left: 0;margin: 0 auto;position: absolute;right: 0;}
+.coursebox.col-12 .coursebtn {width: 20%;}
+.coursebox.col-6 .coursebtn {width: 40%;}
+.coursebox.col-4 .coursebtn {width: 50%;}
+.coursebox.col-3 .coursebtn {width: 50%;}
+.coursebox.col-2 .coursebtn {width: 80%;}
+.coursebox.panel ul.teachers li {display: none;}
+.coursebox.panel ul.teachers li:first-child {display: block;}
+.coursebox .panel-heading {padding: 12px 10px 10px;}
+.coursebox .panel-heading a {font-size: 105%;}
+.courses .coursebox.even {background-color: #eee !important;}
+.coursebox > .info > .coursename a {-webkit-background-size: 14px;background-size: 14px;font-size: 14px;font-weight: normal;}
+.coursebox > .info > h3.name, .course_category_tree .category > .info .name {font-size: 120%;font-weight: normal;margin: 0;}
+.coursebox .content {clear: none;}
+.coursebox {padding: 0;border: 0;border-radius: 0;flex-grow: 2 !important;flex-shrink: 2 !important;flex-basis: 90% !important;}
+#page .covtiles.panel {background: transparent !important;border: 0;position: relative;}
+#page .covtiles.panel .panel-body {border: 1px solid #e4e4e4;border-radius: 2px;-webkit-box-shadow: 0 1px 2px #c1c1c1;box-shadow: 0 1px 2px #c1c1c1;padding: 5px;position: relative;}
+#marketblocks.covtiles {overflow: visible;}
+#marketblocks .covtiles {border-radius: 2px;-webkit-box-shadow: 0 1px 2px #c1c1c1;box-shadow: 0 1px 2px #c1c1c1;position: relative;border: 5px solid #fff;}
+#page .covtiles.panel:hover .panel-body {background-color: transparent !important;}
+#marketblocks.covtiles .internalmarket {background-color: transparent;border: 0;padding: 10px 5px;text-align: left;position: relative;}
+#marketblocks.covtiles h3 {margin-bottom: 0;}
+#marketblocks.covtiles a.submit {margin-top: 10px;display: inline-block;}
+#page .covtiles.panel .cimbox {background-position: 50% 0 !important;-webkit-background-size: cover !important;background-size: cover !important;height: 200px;overflow: hidden;}
+#page .covtiles.panel .cimbox, #page .covtiles.panel:hover .cimbox, #page .covtiles.panel:hover {opacity: 1;}
+.covtiles.coursebox.panel.hover .panel-body .coursebox-content h3, #marketblocks.covtiles h4 {background: #3a454b;border: 5px solid #fff;border-left: 0;border-right: 0;border-bottom: 0;color: #fff !important;font-size: 18px;font-weight: 800;left: -5px;margin: 0;padding: 5px 10px;text-align: left;width: auto;max-width: 100%;}
+.covtiles.coursebox.panel.hover .panel-body .coursebox-content h3 a, #marketblocks.covtiles h4 a, .covtiles.coursebox.panel.hover .panel-body .coursebox-content h3 a:hover, #marketblocks.covtiles h4 a:hover {color: #fff !important;}
+.covtiles .coursebox-content {position: relative;padding: 0 0;}
+.coursebox.hover.covtiles2 .summary {display: block !important;background: #3a454b;bottom: 0;left: 0;padding: 0;right: 0;top: inherit;width: 98%;height: 0;min-height: 0;max-height: 0;overflow: hidden;opacity: 1;-webkit-transition: max-height 1s !important;-o-transition: max-height 1s !important;transition: max-height 1s !important;}
+.coursebox.hover.covtiles2:hover .summary {height: auto;min-height: 30px;padding: 10px 1%;max-height: 1000px;opacity: 1;-webkit-transition: max-height 1s !important;-o-transition: max-height 1s !important;transition: max-height 1s !important;}
+.covtiles.panel.hover .coursebtn.submit.btn {display: block;margin-top: 10px;}
+.coursebox.hover.covtiles .summary {background: #3a454b;color: #fff !important;display: block;position: relative;text-align: left;min-width: auto;}
+#page .covtiles.panel .panel-body {padding-bottom: 38px;}
+.covtiles .coursebox-content {background-color: #3a454b;bottom: 5px;height: 38px;left: 5px;right: 4px;position: absolute;overflow: hidden;-webkit-transition: height .5s ease-in-out;-o-transition: height .5s ease-in-out;transition: height .5s ease-in-out;width: auto;z-index: 9;}
+.covtiles .panel-body .coursebox-content:hover, .covtiles .panel-body .coursebox-content:focus {height: calc(100% - 5px);}
+.course-content ul.topics li.section {padding-bottom: 0;}
+#page .course-content ul li.section.main {background-color: #fff;border: 1px solid #e8eaeb;margin-bottom: 10px;border-radius: 0px;}
+.site-topic ul, .course-content ul {margin-left: .1em;}
+.site-topic ul.section, .course-content ul.section {margin: 0;padding-left: .2em;}
+#newdiscussionform {text-align: center;}
+#searchforums {margin: 5px 0 5px 5px;}
+.course-content .current {background-color: transparent;border-left: 0px solid #ccc;border-right: 0px dashed #ccc;margin-top: 0px !important;}
+.panel-body {overflow: hidden;}
+.panel-body .courseimage img {float: right;margin-bottom: 10px;max-width: 60px;margin-left: 5px;}
+.course-content ul li.section .side {display: none;}
+.editing .course-content ul li.section .side {display: inherit;}
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {margin: 0;}
+.editing .course-content ul.topics li.section .content, .editing .course-content ul.weeks li.section .content {margin: 0;}
+.course-content ul.topics li.section .content .summarytext, .course-content ul.weeks li.section .content .summarytext {margin-left: 15px;}
+.section-handle {margin: 0;position: relative;top: 12px;}
+.course-content ul.topics li.section .left {padding-top: 2px;text-align: right;}
+.course-content ul li.section.main {margin: 0;}
+.sectionname {background-color: #fff;border-bottom: none #f3f3f3 0px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;border-radius: 0px;color: #3a454b;margin-bottom: 20px;padding: 3px 10px;}
+.format-onetopic .onetopic .tab_content {background-color: #fff;}
+.single-section .nav {margin-bottom: 0;}
+.single-section .nav-tabs {border-bottom: none;}
+.path-course-view .completionprogress {color: #666;float: none;font-size: 90%;padding: 0 0 10px;}
+#gridshadebox_content .content .summary, #gridshadebox_content .content ul.section {padding: 0 20px;}
+#page .course-content ul li.section.main.current, .format-onetopic .onetopic .nav-tabs .nav-link.active .tab_content, .format-onetopic .onetopic .nav-tabs .nav-link.active .tab_content .sectionname {background-color: #d2f2ef;}
+.course-content ul li.section.hidden .sectionname, .course-content ul li.section.hidden .content > div {margin-right: 40px;}
+.format-socialwall .topics {padding: 2em;border-radius: 6px;background-color: #fff;word-wrap: break-word;font-family: Open Sans;}
+.format-socialwall .section.main.clearfix#section-0, .format-socialwall .section.main.clearfix#section-2, .format-socialwall .topics > form, .format-socialwall #counttotalpost, .format-socialwall .topics .tl-post, .format-socialwall .tl-post .tl-post-actionarea {padding: 1em;background: #fff;border: 2px solid #b9b9b9;border-radius: 6px;}
+.format-socialwall .section.main.clearfix#section-0 {border-bottom: 0;margin-bottom: 0;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.format-socialwall .section.main.clearfix#section-2 {border-top: 0;border-top-left-radius: 0;border-top-right-radius: 0;border-bottom: 0;margin-bottom: 0;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.format-socialwall .topics > form {border-top: 0;border-top-left-radius: 0;border-top-right-radius: 0;border-bottom: 0;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.format-socialwall #counttotalpost {border-top: 0;border-top-left-radius: 0;border-top-right-radius: 0;}
+.format-socialwall .section.main.clearfix#section-0 h3.sectionname {background: #fff;}
+.format-socialwall #postform input#sw-addactivitylink {pointer-events: none;}
+.format-socialwall div.felement.ftextarea {max-width: 100%;}
+.format-socialwall .sw-texarea, .format-socialwall .tl-commentform .tl-commenttext {-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;max-width: 100%;}
+.format-socialwall .tl-posttext .text_to_html {padding: 2em 0 1.5em;}
+.format-socialwall .tl-text {border-left: 0;}
+.format-socialwall .tl-edited-wrapper {font-size: .8em;text-align: right;color: #333;background: #fff;}
+.format-socialwall .tl-comment {padding-bottom: 1em;}
+.format-socialwall .tl-text .tl-authorname {padding-bottom: 1.5em;}
+.format-socialwall .tl-comment .tl-text div:nth-child(2) {padding-bottom: 1.5em;}
+.format-socialwall .tl-comment-replywrapper {padding-bottom: 0;}
+div.fdescription.required {float: right;}
+.format-socialwall ul.section.tl-postattachment {padding: 2em 0 2.5em;margin: 0;}
+.format-socialwall ul.section.tl-postattachment div {float: left;}
+.format-socialwall .tl-counts, .format-socialwall .tl-timeago {font-size: .8em;color: #333;padding: 1em 0 1.5em;}
+.format-socialwall .tl-counts span {padding-right: 1.5em;}
+.format-socialwall .tl-post .tl-post-actionarea {padding: 0 0 1em;border-left: 0;border-right: 0;border-bottom: 0;border-top-left-radius: 0;border-top-right-radius: 0;}
+.format-socialwall .tl-actionlink a {color: #51666c;}
+.format-socialwall .tl-actionlink a.like {padding-right: 3em;}
+.format-socialwall .tl-actionlink a.likenomore {padding-right: 3em;font-weight: bold;}
+.format-socialwall .tl-actionlink a:hover {font-weight: bold;color: #009688;text-decoration: none;}
+.format-socialwall .like:before {font-family: "Font Awesome 5 Free";content: "";position: relative;padding-right: .15em;}
+.format-socialwall .likenomore:before {font-family: "Font Awesome 5 Free";content: "";position: relative;padding-right: .15em;}
+.format-socialwall .tl-actionlink a:nth-child(3):before {font-family: "Font Awesome 5 Free";content: "";position: relative;padding-right: .15em;}
+.format-socialwall img.userpicture {border: .25em solid #fff;border-radius: 50%;-webkit-box-shadow: 0 .05em .05em rgba(0,0,0,.05);box-shadow: 0 .05em .05em rgba(0,0,0,.05);}
+.activity_footer, .section_footer {margin-top: 2em;padding: 1em 0;border-top: 1px solid #eee;border-bottom: 1px solid #eee;clear: both;display: block;}
+.section_footer .prevnext {font-style: normal;text-decoration: none;display: inline-block;width: 100%;}
+@media (min-width: 768px) {.section_footer .previous_activity, .section_footer .previous_section, .section_footer .next_activity, .section_footer .next_section {width: 50%;vertical-align: top;}}
+.section_footer > .jumpmenu {width: 100%;}
+.next_activity, .next_section {text-align: right;min-height: 1px;}
+.jumpnav > .jumpmenu {text-align: center;margin-top: 1em;}
+.jumpnav > .jumpmenu #jump-to-activity.custom-select {width: auto;}
+.previous_activity, .previous_section {min-height: 1px;}
+.nav_icon {padding: .3em;text-align: center;font-size: 1.5em;line-height: 2em;display: table-cell;min-width: 50px;}
+.previous_activity .nav_icon, .previous_section .nav_icon {margin-right: .3em;border-right: 1px solid #eee;}
+.previous_activity .text, .previous_section .text {padding-left: 9px;}
+.next_activity .nav_icon, .next_section .nav_icon {margin-left: .3em;border-left: 1px solid #eee;}
+.next_activity .text, .next_section .text {padding-right: 9px;}
+.activity_footer .text, .section_footer .text {display: table-cell;width: 10007px;vertical-align: top;padding-top: 9px;color: #565656;}
+.nav_guide {letter-spacing: .1em;text-transform: uppercase;font-style: normal;}
+.block_site_main_menu .mod-indent .activity, .block_site_main_menu .main-menu-content .activity {padding: 5px 0px 5px 0px;}
+.section-modchooser {padding: 5px 10px;}
+.section li.modtype_assign div.activity-wrapper {-webkit-box-shadow: -3px 0 0 0 #06c;box-shadow: -3px 0 0 0 #06c;border-bottom: 2px dashed #eee;background-color: #fff;}
+.section li.modtype_forum div.activity-wrapper {-webkit-box-shadow: -3px 0 0 0 #909;box-shadow: -3px 0 0 0 #909;border-bottom: 2px dashed #eee;background-color: #fff;}
+.section li.modtype_quiz div.activity-wrapper {-webkit-box-shadow: -3px 0 0 0 #f33;box-shadow: -3px 0 0 0 #f33;border-bottom: 2px dashed #eee;background-color: #fff;}
+.activity img.activityicon {margin-right: 0;}
+.section .activity .availabilityinfo {margin-left: 30px;margin-top: 1em;}
+.availabilityinfo .label-info {background-color: #d9edf7;border-color: #bce8f1;color: #3a87ad;font-size: 14px;padding: 10px;}
+.availabilityinfo .label-info a, .availabilityinfo .label-info a:hover {color: #3a87ad !important;}
+.activity-meta-container {padding: 5px 0 0 0;margin: 0px 10px 0 30px;}
+span.activity-due-date {background-color: #555;color: #fff;padding: 7px;margin: 0 10px 0 0;line-height: 3em;border-radius: .5em;font-size: .9em;font-weight: 500;white-space: nowrap;}
+span.activity-due-date a {color: #fff !important;}
+span.activity-mod-feedback {padding: 5px 0;}
+span.activity-mod-feedback i {font-size: 1.1em;}
+span.activity-date-overdue {background-color: #e00;}
+span.activity-date-submitted {background-color: #0c0;}
+span.activity-date-nearly-due {background-color: #f79100;}
+span.activity-mod-feedback i, .activity-mod-engagement i, span.activity-due-date i {font-size: 1.1em;}
+li.activity div.actions-right {float: right;padding: 5px;}
+div.activity-wrapper {margin: 2px 0 2px 0;padding: 5px 10px 5px 0;}
+.section .activity .mod-indent-outer {width: 100%;}
+.section .label .mod-indent-outer {padding-left: 0;}
+.topics .section .activity .mod-indent-outer {margin-left: 15px;}
+.course-content ul.topics li.section .summary {margin: 5px 5px 5px 10px;}
+.section .activity .actions-right .actions {position: absolute;right: 17px;top: 15px;}
+.section .activity .activityinstance {min-width: 60%;margin-left: 5px;}
+.course-content ul.gtopics li.section .content {margin: 0 10px;}
+.course-content ul.ftopics li.section .content {margin: 0 10px;}
+.section li.activity {padding: 0;margin-bottom: 5px;}
+.course-content .single-section .section-navigation {padding: .1em;}
+.context-header-settings-menu, .region-main-settings-menu {height: 2em;margin: 9px 5px 0;}
+#region-main-settings-menu > div {position: static;right: auto;margin: 0;}
+.section .activity .contentwithoutlink > a, .section .activity .activityinstance > a, .section .activity .contentwithoutlink .inplaceeditable > a, .section .activity .activityinstance .inplaceeditable > a {color: #06c;}
+.section .activity .contentwithoutlink > a > span, .section .activity .activityinstance > a > span, .section .activity .contentwithoutlink .inplaceeditable > a > span, .section .activity .activityinstance .inplaceeditable > a > span {font-size: 1.1em;padding-left: 8px;font-weight: 800;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname
+.theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:focus {color: #3a454b;}
+.theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
+
+";s:7:"created";i:1603792156;}

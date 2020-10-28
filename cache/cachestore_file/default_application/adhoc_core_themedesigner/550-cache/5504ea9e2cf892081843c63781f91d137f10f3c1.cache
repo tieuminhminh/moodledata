@@ -1,0 +1,12 @@
+a:2:{s:4:"data";s:2211:"/** Path: plugin tool_filetypes .' **/
+.path-admin-tool-filetypes .generaltable .c0, .path-admin-tool-filetypes .generaltable .c1, .path-admin-tool-filetypes .generaltable .c2, .path-admin-tool-filetypes .generaltable th {white-space: nowrap;}
+.path-admin-tool-filetypes .generaltable .deleted .c0 img {opacity: .2;}
+.path-admin-tool-filetypes .generaltable .deleted .c0 span {text-decoration: line-through;}
+.path-admin-tool-filetypes .generaltable .nonstandard {font-weight: bold;}
+.path-admin-tool-filetypes .form-overridden {display: inline-block;margin-bottom: 1em;padding: 4px 6px;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname a:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname
+.theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname a:focus {color: #3a454b;}
+.theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
+.theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
+
+";s:7:"created";i:1603792155;}
