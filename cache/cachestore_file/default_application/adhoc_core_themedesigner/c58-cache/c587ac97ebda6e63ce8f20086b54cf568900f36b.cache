@@ -15,11 +15,11 @@ a:2:{s:4:"data";s:14648:"/** Path: theme  blocks.' **/
 .block > .content, #dockeditempanel .dockeditempanel_bd {border-width: 0px 0px 0px 0px;border-color: #59585d;border-style: none;padding: 10px 5px;font-weight: normal;background: #fff;border-radius: 0px 0px 0px 0px;}
 #dockeditempanel .dockeditempanel_bd {margin-left: 5px;}
 .block-region-front .block .content {padding: 10px 5px;}
-.block .content a, .block .content li a, .block .content td a {color: #ff0028;}
-.block .content a:hover, .block .content li a:hover, .block .content td a:hover {color: #ff5b75;text-decoration: none !important;}
+.block .content a, .block .content li a, .block .content td a {color: #100f0f;}
+.block .content a:hover, .block .content li a:hover, .block .content td a:hover {color: #337ab7;text-decoration: none !important;}
 .block .block-hider-show, .block .block-hider-hide {width: 18px;}
 .block .content a.dropdown-item:active {background-color: #eee;color: #000;}
-.jsenabled .block_settings .block_tree .tree_item.branch, .block_navigation .block_tree .tree_item.branch {color: #ff0028 !important;}
+.jsenabled .block_settings .block_tree .tree_item.branch, .block_navigation .block_tree .tree_item.branch {color: #100f0f !important;}
 .block_navigation .block_tree p.hasicon img {padding-right: 0;}
 .block_navigation ul.block_tree > li > ul, .block_navigation ul.block_tree > li > ul > li p.tree_item.branch {padding-left: 0;}
 .block_navigation ul.block_tree > li > ul > li p.hasicon {padding-left: 1px;}
@@ -55,7 +55,7 @@ a:2:{s:4:"data";s:14648:"/** Path: theme  blocks.' **/
 .block .calendar-controls .previous .arrow, .block .calendar-controls .next .arrow {display: none;}
 .block_comments div.content li {list-style-type: none;}
 .block_tree_box hr {background: transparent;border: none;border-top: 1px solid #eee;}
-.site-info-container {background-color: #ff2341;padding: 5px 10px;height: 120px;}
+.site-info-container {background-color: #337ab7;padding: 5px 10px;height: 120px;}
 .site-info-value {color: #fff;font-size: 48px;display: block;text-align: right;}
 .site-info-label {color: #fff;font-size: 18px;display: block;text-align: right;}
 .server-info-container {background-color: #39c121;padding: 5px 10px;height: 120px;}
@@ -143,4 +143,4 @@ main.tabcontentcontainer {min-height: 400px;padding: 0;background: #fff;margin: 
 .theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
 .theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
 
-";s:7:"created";i:1603792156;}
+";s:7:"created";i:1604043008;}

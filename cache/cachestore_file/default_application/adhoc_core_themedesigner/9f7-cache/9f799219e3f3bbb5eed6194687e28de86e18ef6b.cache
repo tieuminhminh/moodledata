@@ -1,6 +1,6 @@
-a:2:{s:4:"data";s:25136:"/** Path: theme  extras.' **/
+a:2:{s:4:"data";s:25139:"/** Path: theme  extras.' **/
 #back-to-top {background-color: #000;background-color: rgba(0,0,0,.25);border-radius: 5px;-webkit-box-shadow: 0 0 1px #fff;box-shadow: 0 0 1px #fff;color: #fff;display: none;padding: 5px 12px;position: fixed;right: 3px;text-align: center;text-decoration: none;text-transform: uppercase;top: 85%;-webkit-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;font-size: 1.1em;cursor: pointer;}
-#back-to-top:hover .fa {color: #ff5b75;}
+#back-to-top:hover .fa {color: #337ab7;}
 .gradereport-grader-table img {max-width: none;}
 .singleselect {display: inline-block;max-width: 100%;width: 100%;}
 .panel-heading {border-bottom: 1px solid #000;padding: 12px 15px 10px;background-color: #f3f3f3;border-color: #e8eaeb;color: #555;}
@@ -11,25 +11,25 @@ ul.teachers {list-style-type: none;margin: 0;padding: 0;font-size: 90%;}
 .messaging-area-container .messaging-area .contacts-area .contacts .contact.selected {background-color: #e9ebeb;color: #333;}
 .messaging-area-container .messaging-area .contacts-area .contacts .contact.selected .information .lastmessage {color: #333;}
 .messaging-area-container .messaging-area .contacts-area .contacts .contact:hover .information .lastmessage {color: #333;}
-.messaging-area-container .messaging-area .contacts-area .tabs .tab.selected {color: #ff0028 !important;}
+.messaging-area-container .messaging-area .contacts-area .tabs .tab.selected {color: #100f0f !important;}
 .messaging-area-container .messaging-area .contacts-area .tabs .tab {background-color: transparent;}
 .messaging-area-container .messaging-area .messages-area .messages .message .content.right {background-color: #dcf8c6;border-radius: 5px;border: 1px solid #c0c0c0;-webkit-box-shadow: 2px 2px 1px 0 rgba(0,0,0,.2);box-shadow: 2px 2px 1px 0 rgba(0,0,0,.2);}
 .messaging-area-container .messaging-area .messages-area .messages .message .content.left {background-color: #fff;border-radius: 5px;border: 1px solid #c0c0c0;-webkit-box-shadow: 2px 2px 1px 0 rgba(0,0,0,.2);box-shadow: 2px 2px 1px 0 rgba(0,0,0,.2);}
 .messaging-area-container .messaging-area .contacts-area .contacts .contact:hover {background-color: #e9ebeb;color: #333;}
 .messaging-area-container .messaging-area .messages-area .messages .message .content .text p {font-size: 1.2em;}
 .messaging-area-container .messaging-area .messages-area .messages .message .content .timesent {color: #808080;float: right;font-size: 1em;}
-.messaging-area-container .messaging-area .messages-area .messages {background-color: #fff;}
+.messaging-area-container .messaging-area .messages-area .messages {background-color: #d73944;}
 .messaging-area-container .messaging-area .messages-area .response {padding: 0 10px 9px;}
 .information .lastmessage, .information .lastmessage:hover {color: #e9ebeb;}
 .msg-title, .msg-sender, .msg-time {color: #333;}
 .msg-time {float: right;font-size: 1em;}
 .messaging-area-container .messaging-area .messages-area .messages-header .name-container .status {font-size: 12px;font-weight: normal;line-height: 16px;}
-.messaging-area-container .messaging-area .messages-area .messages-header .btn {height: 25px;line-height: 25px;padding: 0 5px;width: auto;color: #ff0028 !important;background: none !important;border: 0;-webkit-box-shadow: none;box-shadow: none;font-size: 18px;}
+.messaging-area-container .messaging-area .messages-area .messages-header .btn {height: 25px;line-height: 25px;padding: 0 5px;width: auto;color: #100f0f !important;background: none !important;border: 0;-webkit-box-shadow: none;box-shadow: none;font-size: 18px;}
 .messaging-area-container .messaging-area .messages-area .messages-header .btn .messages-delete, .messaging-area-container .messaging-area .messages-area .messages-header .btn .cancel-messages-delete {height: 25px;line-height: 25px;padding: 0 5px;width: auto;font-size: 14px;}
 .messaging-area-container .messaging-area .messages-area .response {border-top: none;}
-.messaging-area-container .messaging-area .messages-area .messages .blocktime {color: #ff2341;font-weight: bold;font-size: 16px;background-color: rgba(255,255,255,.6);border-radius: 4px;}
-.messaging-area-container .messaging-area .contacts-area .tabs .tab {color: #ff0028;}
-.messaging-area-container .messaging-area .contacts-area .tabs .tab:hover {color: #ff5b75;}
+.messaging-area-container .messaging-area .messages-area .messages .blocktime {color: #337ab7;font-weight: bold;font-size: 16px;background-color: rgba(255,255,255,.6);border-radius: 4px;}
+.messaging-area-container .messaging-area .contacts-area .tabs .tab {color: #100f0f;}
+.messaging-area-container .messaging-area .contacts-area .tabs .tab:hover {color: #337ab7;}
 .messaging-area-container .messaging-area .messages-area .messages-header .actions {font-weight: normal;padding-right: 15px;position: absolute;right: 0;top: 0;}
 .messaging-area-container .status .online-text {color: #51666c;}
 .messages-area .actions a:hover {text-decoration: none;}
@@ -115,12 +115,12 @@ textarea#page-mod-forum-discuss .discussioncontrols .discussioncontrol.movediscu
 #ticker, #ticker_container {font-size: 16px;}
 #ticker-wrap {position: relative;margin-bottom: 15px;margin-top: 15px;background: #eee;line-height: 40px;}
 #page-site-index #ticker-wrap {display: block;}
-#ticker-announce {background-color: #ff2341;padding: 0 15px;color: #eee;margin-right: 15px;margin-left: -15px;text-transform: uppercase;font-weight: 600;}
+#ticker-announce {background-color: #337ab7;padding: 0 15px;color: #eee;margin-right: 15px;margin-left: -15px;text-transform: uppercase;font-weight: 600;}
 #ticker-wrap #controls {padding-right: 15px;}
-#ticker-wrap #controls .fa {color: #ff2341;cursor: pointer;margin-top: 10px;}
+#ticker-wrap #controls .fa {color: #337ab7;cursor: pointer;margin-top: 10px;}
 #ticker-wrap #newscontent {max-width: 75%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 #ticker-wrap #newscontent #news {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
-#play_trigger a, #pause_trigger a {color: #ff2341 !important;}
+#play_trigger a, #pause_trigger a {color: #337ab7 !important;}
 .flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {outline: none;}
 .slides, .flex-control-nav, .flex-direction-nav {margin: 0;padding: 0;list-style: none;}
 .flexslider {margin: 0;padding: 0;}
@@ -196,4 +196,4 @@ html[xmlns] .slides {display: block;}
 .theme_adaptable .course-content ul.ctopics li.section .content div.toggle, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:hover, .theme_adaptable .course-content ul.ctopics li.section .content div.toggle:focus {background-color: #fff;}
 .theme_adaptable .course-content ul.ctopics li.section .content .toggle span, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:hover, .theme_adaptable .course-content ul.ctopics li.section .content .toggle span:focus, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:hover, .theme_adaptable .course-content ul.ctopics li.section .content.sectionhidden:focus {color: inherit;}
 
-";s:7:"created";i:1603792156;}
+";s:7:"created";i:1604043009;}
